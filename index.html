@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#09090d">
+  <title>Communauté de l'horreur</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="#accueil"><span class="brand-mark">☠</span><span>COMMUNAUTÉ <b>DE L'HORREUR</b></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">☰</button>
+    <nav id="nav">
+      <a href="#accueil">Accueil</a><a href="#evenements">Événements</a>
+      <a href="#actualites">Actualités</a><a href="#staff">Le staff</a>
+      <a href="#galerie">Galerie</a><a href="#membres">Espace membres</a>
+    </nav>
+    <button class="account-button" id="accountOpen">Connexion</button>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">✦ ENTRE DANS LES TÉNÈBRES ✦</p>
+        <h1>LA NUIT A<br><span>UN NOM.</span></h1>
+        <p class="hero-copy">Une communauté pour les passionnés d'horreur, de jeux, de mystères et de soirées inoubliables.</p>
+        <div class="hero-actions">
+          <a class="btn btn-red" href="https://discord.gg/RkRQdHUN7t" target="_blank" rel="noopener">REJOINDRE LE DISCORD ↗</a>
+          <a class="btn btn-ghost" href="#evenements">Explorer le site</a>
+        </div>
+        <div class="hero-foot"><span class="pulse"></span> LA COMMUNAUTÉ T'ATTEND</div>
+      </div>
+      <div class="hero-stamp">RESTE<br>DANS<br>LA LUMIÈRE</div>
+    </section>
+
+    <section class="intro section-wrap">
+      <p class="eyebrow">BIENVENUE, VOYAGEUR</p>
+      <h2>UN LIEU POUR CEUX<br>QUI AIMENT <span>FRISSONNER.</span></h2>
+      <p class="muted">Retrouve les membres, découvre les prochaines animations et partage tes découvertes dans une ambiance sombre et conviviale.</p>
+    </section>
+
+    <section class="section-wrap" id="evenements">
+      <div class="section-heading"><div><p class="eyebrow">À NE PAS MANQUER</p><h2>ÉVÉNEMENTS <span>& ANIMATIONS</span></h2></div><span class="section-index">01 / 04</span></div>
+      <div class="cards">
+        <article class="feature-card event-card"><div class="card-icon">🎮</div><p class="tag">SOIRÉE COMMUNAUTAIRE</p><h3>Jeux & frissons</h3><p>Des sessions de jeux d'horreur et des soirées à partager ensemble.</p><span class="card-bottom">PROCHAINEMENT <b>→</b></span></article>
+        <article class="feature-card event-card"><div class="card-icon">🕯️</div><p class="tag">ANIMATION</p><h3>Défis mystérieux</h3><p>Des énigmes, des défis et des surprises préparés par l'équipe.</p><span class="card-bottom">PROCHAINEMENT <b>→</b></span></article>
+        <article class="feature-card event-card"><div class="card-icon">🎨</div><p class="tag">CRÉATIVITÉ</p><h3>Concours & partage</h3><p>Montre tes créations et découvre celles des autres membres.</p><span class="card-bottom">PROCHAINEMENT <b>→</b></span></article>
+      </div>
+    </section>
+
+    <section class="section-wrap" id="actualites">
+      <div class="section-heading"><div><p class="eyebrow">LES DERNIÈRES NOUVELLES</p><h2>ACTUALITÉS <span>& ANNONCES</span></h2></div><span class="section-index">02 / 04</span></div>
+      <div class="news-panel">
+        <div class="news-date">📢 <span>ANNONCE COMMUNAUTAIRE</span></div>
+        <div><h3>Bienvenue dans la Communauté de l'horreur</h3><p>Le site ouvre ses portes ! Consulte régulièrement cette section pour retrouver les annonces et les nouveautés.</p></div>
+        <span class="news-status">À LA UNE</span>
+      </div>
+      <p class="hint">Les annonces affichées ici sont des exemples. Tu pourras les modifier directement dans <code>script.js</code>.</p>
+    </section>
+
+    <section class="staff-section" id="staff">
+      <div class="section-wrap">
+        <div class="section-heading"><div><p class="eyebrow">CEUX QUI VEILLENT</p><h2>LE <span>STAFF</span></h2></div><span class="section-index">03 / 04</span></div>
+        <div class="staff-grid">
+          <article class="staff-card"><div class="avatar">☠</div><h3>Fondateur</h3><p>Créateur de la communauté</p><span class="role">ADMINISTRATION</span></article>
+          <article class="staff-card"><div class="avatar">♜</div><h3>Modération</h3><p>Une équipe à l'écoute des membres</p><span class="role">MODÉRATION</span></article>
+          <article class="staff-card"><div class="avatar">✦</div><h3>Animation</h3><p>À l'origine des événements</p><span class="role">ÉVÉNEMENTS</span></article>
+        </div>
+        <p class="hint">Remplace ces rôles par les noms et présentations réels de ton équipe.</p>
+      </div>
+    </section>
+
+    <section class="section-wrap" id="galerie">
+      <div class="section-heading"><div><p class="eyebrow">REGARDE DANS L'OBSCURITÉ</p><h2>GALERIE <span>HORRIFIQUE</span></h2></div><span class="section-index">04 / 04</span></div>
+      <div class="gallery">
+        <div class="gallery-tile tile-one"><span>01 — LA FORÊT</span></div>
+        <div class="gallery-tile tile-two"><span>02 — LE MANOIR</span></div>
+        <div class="gallery-tile tile-three"><span>03 — L'INCONNU</span></div>
+      </div>
+      <p class="hint">Galerie décorative de démonstration : ajoute tes propres images libres de droits dans le dossier images.</p>
+    </section>
+
+    <section class="members-section" id="membres">
+      <div class="section-wrap members-layout">
+        <div><p class="eyebrow">TON REPÈRE DANS LA NUIT</p><h2>ESPACE <span>MEMBRES</span></h2><p class="muted">Connecte-toi à la démo pour afficher ton pseudo sur cet appareil. Cette version ne crée pas encore de vrais comptes en ligne.</p></div>
+        <div class="member-box"><div class="member-symbol">♙</div><h3 id="memberTitle">Tu es un visiteur</h3><p id="memberText">Connecte-toi pour personnaliser ton espace local.</p><button class="btn btn-red" id="memberAction">Créer mon profil démo</button><button class="logout-link hidden" id="logout">Se déconnecter</button></div>
+      </div>
+    </section>
+
+    <section class="join section-wrap" id="discord">
+      <p class="eyebrow">LE PORTAIL EST OUVERT</p><h2>OSERAS-TU <span>NOUS REJOINDRE ?</span></h2>
+      <p class="muted">La communauté continue sur Discord. Viens discuter et participer aux prochaines animations.</p>
+      <a class="btn btn-red" href="https://discord.gg/RkRQdHUN7t" target="_blank" rel="noopener">REJOINDRE LE SERVEUR DISCORD ↗</a>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#accueil">☠ COMMUNAUTÉ DE L'HORREUR</a><p>© 2026 — Une communauté, mille frissons.</p><a href="#accueil">RETOUR EN HAUT ↑</a></footer>
+
+  <dialog id="accountDialog">
+    <form method="dialog" class="dialog-close"><button aria-label="Fermer">×</button></form>
+    <p class="eyebrow">IDENTITÉ DE VISITEUR</p><h2>CRÉER UN <span>PROFIL DÉMO</span></h2>
+    <p class="muted">Choisis un pseudo pour personnaliser cet appareil. Ne saisis pas de mot de passe ni d'information personnelle.</p>
+    <label for="nickname">Ton pseudo</label><input id="nickname" maxlength="20" placeholder="Ex. NightWalker" autocomplete="nickname">
+    <p class="form-error" id="formError"></p><button class="btn btn-red full" id="saveProfile">Valider mon pseudo</button>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
